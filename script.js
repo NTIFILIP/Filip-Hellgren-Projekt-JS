@@ -27,33 +27,33 @@ const upgrades = {
   },
   ["HTML"]: {
     owned: parseInt(localStorage.getItem("HTML")) || 0,
-    cpsIncrease: 2,
+    cpsIncrease: 5,
     cost: 150,
   },
   ["CSS"]: {
     owned: parseInt(localStorage.getItem("CSS")) || 0,
-    cpsIncrease: 5,
-    cost: 250,
+    cpsIncrease: 15,
+    cost: 1000,
   },
   ["Javascript"]: {
     owned: parseInt(localStorage.getItem("Javascript")) || 0,
-    cpsIncrease: 8,
-    cost: 550,
+    cpsIncrease: 40,
+    cost: 2200,
   },
   ["Python"]: {
     owned: parseInt(localStorage.getItem("Python")) || 0,
-    cpsIncrease: 14,
-    cost: 1200,
+    cpsIncrease: 100,
+    cost: 12000,
   },
   ["CSharp"]: {
     owned: parseInt(localStorage.getItem("CSharp")) || 0,
-    cpsIncrease: 25,
-    cost: 2500,
+    cpsIncrease: 250,
+    cost: 25000,
   },
   ["Lua"]: {
     owned: parseInt(localStorage.getItem("Lua")) || 0,
-    cpsIncrease: 40,
-    cost: 10000,
+    cpsIncrease: 400,
+    cost: 100000,
   },
 };
 
