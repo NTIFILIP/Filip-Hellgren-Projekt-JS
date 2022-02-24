@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: red;
+  background-color: rgb(189, 123, 2);
 }
 
 .main-grid {
@@ -16,19 +16,25 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(189, 123, 2);
-  background-image: url("Images/header-background.png");
+  background-image: url("Images/gifff.gif");
   background-size: contain;
   border-bottom: 10px solid rgb(73, 48, 0);
-  filter: saturate(1.2);
   width: 100vw;
   grid-row: 1;
   grid-column: 1;
+}
+
+.counter-display {
+  background-color: rgb(153, 100, 1);
+  border: 3px solid rgb(189, 123, 2);
+  padding: 5px;
 }
 
 .click-counter,
 .auto-click-counter {
   margin: 0;
   color: rgb(47, 255, 99);
+  text-align: center;
   text-shadow: 1px 1px black;
 }
 
@@ -37,8 +43,8 @@ body {
   margin-right: 10px;
   border: 1px solid whitesmoke;
   border-radius: 5%;
-  color: whitesmoke;
-  background-color: rgb(255, 38, 0);
+  color: rgb(255, 255, 255);
+  background-color: rgb(228, 0, 0);
   padding: 5px;
   transition: 200ms;
 }
@@ -71,14 +77,14 @@ body {
 }
 
 .clicker {
-  background-image: url("Images/hackurclick.jpg");
+  background-image: url("Images/clickee.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: burlywood;
   border-radius: 20%;
   border: none;
   transform-origin: center;
-  filter: saturate(2);
+  filter: sepia(1.6);
   filter: drop-shadow(8px 8px 7px rgb(104, 67, 0));
   transform: scale(1);
   transition: 200ms;
@@ -103,7 +109,9 @@ body {
   grid-column: 2;
   background-color: rgb(255, 218, 55);
   border-left: 15px solid rgb(73, 48, 0);
-  background-image: url("Images/shop-background.jpg");
+  background-image: url("Images/giphy.gif");
+  background-blend-mode: multiply;
+  background-size: contain;
 }
 
 .upgrade-object {
@@ -114,7 +122,7 @@ body {
   margin-top: 10px;
   height: 7vh;
   width: 90%;
-  background-color: rgb(189, 123, 2);
+  background-color: rgb(153, 100, 1);
   border: 3px solid rgb(117, 76, 0);
 }
 
@@ -163,10 +171,11 @@ body {
   height: 100%;
   width: 30%;
   border: none;
-  background-color: rgb(228, 69, 41);
+  background-color: rgb(190, 41, 15);
   color: whitesmoke;
   text-shadow: 1px 1px black;
-  font-size: 55%;
+
+  font-size: 80%;
 }
 
 .upgrade-button:hover {

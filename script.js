@@ -16,8 +16,8 @@ backgroundUpdateTime = 5000;
 
 upgradeButtons = new Array();
 
-canPurchaseColor = "rgb(166, 228, 41)";
-notEnoughClickColor = "rgb(228, 69, 41)";
+canPurchaseColor = "rgb(0, 130, 0)";
+notEnoughClickColor = "rgb(190, 41, 15)";
 
 const upgrades = {
   ["Command Line"]: {
