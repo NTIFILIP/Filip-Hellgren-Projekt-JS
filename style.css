@@ -16,7 +16,7 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(189, 123, 2);
-  background-image: url("Images/gifff.gif");
+  background-image: url("Images/header-background.gif");
   background-size: contain;
   border-bottom: 10px solid rgb(73, 48, 0);
   width: 100vw;
@@ -64,7 +64,7 @@ body {
 .click-area {
   grid-column: 1;
   background-color: orange;
-  background-image: url(Images/hackurgif.gif);
+  background-image: url(Images/main-background.gif);
   filter: sepia(2);
   filter: contrast(2);
   background-repeat: repeat;
@@ -77,7 +77,7 @@ body {
 }
 
 .clicker {
-  background-image: url("Images/clickee.jpeg");
+  background-image: url("Images/clicker.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: burlywood;
@@ -109,7 +109,7 @@ body {
   grid-column: 2;
   background-color: rgb(255, 218, 55);
   border-left: 15px solid rgb(73, 48, 0);
-  background-image: url("Images/giphy.gif");
+  background-image: url("Images/shop-background.gif");
   background-blend-mode: multiply;
   background-size: contain;
 }
